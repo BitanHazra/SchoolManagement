@@ -1,0 +1,10 @@
+input[type='text']{
+    border: none;
+    background: #e6dede;
+    cursor: not-allowed;
+}
+input[type='date']{
+    border: none;
+    background: #e6dede;
+    cursor: not-allowed;
+}
