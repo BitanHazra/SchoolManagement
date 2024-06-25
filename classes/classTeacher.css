@@ -1,0 +1,259 @@
+.second_nav{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background: #fff;
+    box-shadow: 5px 2px 10px rgb(214, 212, 207);
+    align-items: center;
+    z-index: 2;
+    
+}
+#heading{
+    font-size: x-large;
+    color: #855cb4;
+    margin-left: 15px;
+    text-decoration: none;
+    float: left;
+}
+.heading_con{
+    width: 100%;
+}
+
+.path{
+    font-size: large;
+    color: #855cb4;
+    float: right;
+    margin-right: 15px;
+}
+.create_new_btn{
+    margin-left: 5px ;
+    border: none;
+    background: #a085be;
+    padding: 11px 10px;
+    color: #fff;
+    font-size: medium;
+    text-decoration: none;
+}
+.create_new_btn:hover{
+    cursor: pointer;
+}
+.create_new_btn img{
+    width: 15px; 
+    height: 15px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.classes_table{
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.classes_table_main{
+    width: 60%;
+    border-radius: 15px;
+    margin-top: 55px;
+    background: #fff;
+    box-shadow: 0px 2px 10px #ebe3e3;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 15px;
+}
+.classes_table_heading{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.con_left{
+    float: left;
+    width:30%;
+    height:80px;
+    align-content: center;
+}
+.con_left label{
+    font-size: large;
+}
+.con_left input{
+    width: 90px;
+}
+.con_right{
+    float: right;
+    width:40%;
+    height:80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.con_right button{
+    width: 80px;
+    height: 35px;
+    border: none;
+    color: #fff;
+    margin-right: 10px;
+    position: relative;
+}
+.con_right button:hover{
+    cursor: pointer;
+}
+#import_file:hover,#export_file:hover{
+    cursor: pointer;
+}
+
+#print{
+    background: rgb(117, 199, 117);
+    
+}
+#import{
+    background: #d6a5a5;
+}
+#export{
+    background: #1dcca0;
+}
+
+#import_file,#export_file{
+    width: 80px;
+    height: 35px;
+    border: 1px solid black;
+    opacity: 1;
+    position: absolute;
+    top:0px;
+    left: 0;
+    opacity: 0;
+}
+
+.span_img{
+    width: 15px; 
+    height: 15px;
+    border-radius: 50%;
+    margin-right: 5px;
+    align-content: center;
+    align-items: center;
+}
+.action_search{
+    width: 100%;
+    display: flex;
+    height: 45px;
+    flex-direction: row;
+    align-items:  center;
+    justify-content:space-between
+}
+.action_search input[type='number'],.action_search input[type='search']{
+    width: 160px;
+    height: 30px;
+    border: 1px solid #af9696;
+}
+.action_search input[type='search']{
+    width: 160px;
+    height: 35px;
+    border: 1px solid #af9696;
+}
+#select_class_name{
+        width: 80px;
+        height: 30px;
+        border: 1px solid #af9696;
+    }
+.classes_body_table{
+    width: 100%;
+}
+table{
+    border: 1px solid rgb(195, 195, 250);  
+}
+th{
+ border: 1px solid rgb(195, 195, 250);
+ padding: 10px 10px;
+ width: 180px;
+ background: #ebe3e3;
+ font-size: large;
+}
+td{
+    border: 1px solid rgb(195, 195, 250);
+    padding: 5px 10px;
+    width: 180px;
+    height: 35px;
+    text-align: center;
+    font-size: large;
+   }
+.fotter_content{
+    position: relative;
+    margin-top: 15px;
+}
+#entry_to_view{
+    width: 50px;
+    height: 30px;
+}
+.editFrame{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    box-sizing: border-box;
+}
+.deleteFrame,.newFrame{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    box-sizing: border-box;
+}
+.editContainer{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 200px;
+    background: #fcfafa;
+    box-shadow:0px 2px 15px #d49f9f;
+}
+.cross{
+    width: 20px;
+    float: right;
+    font-size: x-large;
+}
+.cross:hover{
+    cursor: pointer;
+}
+.className,.teacher_name{
+    width: 120px;
+    height: 30px;
+    margin-right: 15px;
+}
+
+#edit,#delete{
+    width: 120px;
+    height: 30px;
+}
+.cloeCon{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 80px;
+}
+.editContentCon{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+    box-sizing: border-box;
+}
